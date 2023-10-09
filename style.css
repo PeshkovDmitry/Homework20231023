@@ -34,17 +34,32 @@
 }
 
 .right_header_group {
-	width: 159px; 
+	width: 159px;
 	margin: 26px 240px 20px auto;
 	display: flex;
 	justify-content: space-between;
-	align-items:center;
+	align-items: center;
 	gap: 41px;
 }
-
-
 
 .header_button {
 	background: none;
 	border: none;
+}
+
+.main_logo {
+	background-color: #f1e4e6;
+}
+
+.main_logo_container {
+	width: 1600px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.main_banner {
+	margin: 290px 331px 381px 63px;
+	border-left: 12px solid #F16D7F;
+	padding-left: 16px;
 }
