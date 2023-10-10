@@ -156,3 +156,98 @@
 	font-weight: 400;
 	line-height: normal;
 }
+
+.products {
+	width: 1140px;
+	margin: 96px auto 0px;
+}
+
+.products_header3 {
+	color: #222;
+	font-family: Lato-Regular;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 6px;
+	text-align: center;
+}
+
+.products_subheader {
+	color: #9f9f9f;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+.card {
+	background-color: #f8f8f8;
+	/* margin-bottom: 25px; */
+}
+
+.card_header {
+	width: 315px;
+	color: #000;
+	font-family: Lato-Regular;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 25px 18px 0px;
+}
+
+.card_text {
+	width: 315px;
+	color: #5d5d5d;
+	font-family: Lato-Light;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	margin: 16px 18px;
+}
+
+.card_price {
+	width: 315px;
+	color: #f16d7f;
+	font-family: Lato-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 18px 18px 20px;
+}
+
+.products_button_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.browse_all_button {
+	width: 212px;
+	margin-top: 48px;
+	margin-bottom: 60px;
+	border: 2px solid #ff6a6a;
+	background-color: #fff;
+}
+
+.browse_all_button_text {
+	margin: 15px auto;
+	color: #f26376;
+	font-family: Lato-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
