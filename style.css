@@ -357,3 +357,95 @@
 		margin-bottom: 70px;
 	}
 }
+
+@media (max-width: 767px) and (min-width: 320px) {
+	.header {
+		width: 375px;
+	}
+
+	.left_header_group {
+		margin: 18px auto 18px 16px;
+	}
+
+	.right_header_group {
+		margin: 25px 16px 26px auto;
+		justify-content: right;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.main_logo {
+		width: 375px;
+	}
+
+	.main_banner {
+		margin: 148px 56px;
+		padding-left: 15px;
+	}
+
+	.main_logo_header1 {
+		font-size: 38px;
+	}
+
+	.main_logo_header2 {
+		font-size: 20px;
+	}
+
+	.main_logo_span {
+		color: #f16d7f;
+	}
+
+	.offer {
+		width: 375px;
+		gap: 32px;
+	}
+
+	.offer_for_men_background .offer_for_women_background .offer_for_kids_background {
+		width: 343px;
+		height: 247px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.offer_accesories_background {
+		width: 343px;
+		height: 111px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.products {
+		width: 375px;
+	}
+
+	.cards {
+		justify-content: center;
+		gap: 16px;
+	}
+
+	.card_header {
+		margin: 25px auto 0px 18px;
+	}
+
+	.card_text {
+		margin: 13px auto 18px 18px;
+	}
+
+	.card_price {
+		margin: 18px auto 20px 18px;
+	}
+
+	.card_image {
+		width: 359px;
+		height: 420px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.browse_all_button {
+		margin-top: 40px;
+		margin-bottom: 85px;
+	}
+}
