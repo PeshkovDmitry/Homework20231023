@@ -252,6 +252,44 @@
 	line-height: normal;
 }
 
+.feature {
+	width: 1600px;
+	margin: 0px auto;
+	background-color: #222224;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+
+.feature-item {
+	width: 360px;
+	margin: 103px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.feature-item__header {
+	margin-top: 28px;
+	margin-bottom: 16px;
+	color: #fbfbfb;
+	font-family: Lato-Regular;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.feature-item__text {
+	color: #fbfbfb;
+	text-align: center;
+	font-family: Lato-Light;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
 	.header {
 		width: 768px;
