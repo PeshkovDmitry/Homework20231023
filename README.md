@@ -1,4 +1,4 @@
-https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=189%3A839
+Макет https://www.figma.com/file/mnLY69cYE5cqWM5w6n5hXx/Seo-%26-Digital-Marketing-Landing-Page?node-id=190%3A1194
 
-Создать медиа запрос, чтобы наш проект отлично смотрелся на разрешениях экрана 320-767
-Создать мобильную версию проекта
+На данном уроке нам необходимо доделать подвал, главной страницы интернет-магазина.
+Выполнить алгоритмы из методички в разделе "Домашняя работа".
