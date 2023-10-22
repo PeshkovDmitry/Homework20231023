@@ -85,6 +85,53 @@
 	background-color: #f1e4e6;
 	display: flex;
 	justify-content: center;
+	position: relative;
+}
+
+.main-menu {
+	width: 232px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background-color: #fff;
+	filter: drop-shadow(6px 4px 35px rgba(0, 0, 0, 0.21));
+	padding: 32px;
+}
+
+.main-menu_header1 {
+	display: block;
+	margin-bottom: 24px;
+	color: #000;
+	font-family: Lato-Bold;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.main-menu_header2 {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	color: #f16d7f;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.main-menu_item {
+	display: block;
+	margin-left: 22px;
+	margin-top: 11px;
+	margin-bottom: 11px;
+	color: #6f6e6e;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 .main_banner {
