@@ -489,6 +489,14 @@
 	align-items: center;
 }
 
+.footer_icons-icon:hover {
+	background-color: #f16d7f;
+}
+
+.footer_icons-icon:hover svg {
+	fill: #fff;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) {
 	.header {
 		width: 768px;
