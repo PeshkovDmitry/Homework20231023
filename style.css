@@ -59,6 +59,26 @@
 	border: none;
 }
 
+.position_relative {
+	position: relative;
+}
+
+.basket-count {
+	position: absolute;
+	right: -10px;
+	top: -9px;
+	height: 19px;
+	width: 19px;
+	background-color: #f16d7f;
+	border-radius: 50%;
+	color: #fff;
+	font-family: Lato-Regular;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
 .main_logo {
 	width: 1600px;
 	margin: 0px auto;
@@ -293,18 +313,25 @@
 .subscribe {
 	width: 1600px;
 	margin: 0px auto;
-	background-image: url(./img/Sea.png);
-	/* background: url(./img/Sea.png), lightgray 0px -169px / 100% 246.875% no-repeat; */
-	/* background-color: #222224;*/
 	display: flex;
-	justify-content: center;
-	gap: 223px;
+	justify-content: space-between;
+	position: relative;
+}
+
+.subscribe-background {
+	width: 100%;
+	height: 100%;
+	opacity: 70%;
+	background-color: #222224;
+	position: absolute;
+	z-index: -1;
 }
 
 .subscribe-info {
 	width: 360px;
 	margin-top: 97px;
 	margin-bottom: 126px;
+	margin-left: 230px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -334,6 +361,7 @@
 .subscribe-buttongroup {
 	width: 557px;
 	margin-top: 150px;
+	margin-right: 230px;
 	margin-bottom: 156px;
 	display: flex;
 	flex-direction: column;
@@ -366,15 +394,24 @@
 .subscribe-buttongroup__input {
 	width: 256px;
 	height: 49px;
-	border-radius: 10px 0px 0px 10px;
+	border-radius: 25px 0px 0px 25px;
 	border: none;
-	/* background-color: #e1e1e1; */
+	padding-left: 22px;
+	background-color: #e1e1e1;
+	color: #222224;
+	font-family: Lato-Regular;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	opacity: 0.671;
 }
 
 .subscribe-buttongroup_button {
 	width: 100px;
 	height: 49px;
 	margin-left: -5px;
+	border-radius: 0px 25px 25px 0px;
 	border: none;
 	background-color: #f16d7f;
 	color: #fff;
@@ -384,6 +421,41 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+.footer {
+	width: 1600px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	background-color: #222224;
+}
+
+.footer-text {
+	margin: 30px auto 30px 235px;
+	color: #fbfbfb;
+	font-family: Lato-Regular;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.footer_icons {
+	margin: 24px 230px 23px auto;
+	display: flex;
+	flex-direction: row;
+	gap: 7px;
+}
+
+.footer_icons-icon {
+	height: 32px;
+	width: 32px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
