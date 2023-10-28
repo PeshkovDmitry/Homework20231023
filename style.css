@@ -1,21 +1,33 @@
 @font-face {
-	font-family: 'Lato-Light';
-	src: url('./fonts/Lato-Light.ttf');
+	font-family: 'Lato';
+	src: url('./fonts/Lato-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lato-Regular';
-	src: url('./fonts/Lato-Regular.ttf');
+	font-family: 'Lato';
+	src: url('./fonts/Lato-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lato-Bold';
-	src: url('./fonts/Lato-Bold.ttf');
+	font-family: 'Lato';
+	src: url('./fonts/Lato-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Lato-Black';
-	src: url('./fonts/Lato-Black.ttf');
+	font-family: './fonts/Lato';
+	src: url('Lato-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
 }
 
 * {
@@ -73,7 +85,7 @@
 	background-color: #f16d7f;
 	border-radius: 50%;
 	color: #fff;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 12px;
 	font-style: normal;
 	font-weight: 400;
@@ -103,7 +115,7 @@
 	display: block;
 	margin-bottom: 24px;
 	color: #000;
-	font-family: Lato-Bold;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 700;
@@ -115,7 +127,7 @@
 	margin-top: 20px;
 	margin-bottom: 12px;
 	color: #f16d7f;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -128,7 +140,7 @@
 	margin-top: 11px;
 	margin-bottom: 11px;
 	color: #6f6e6e;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -143,7 +155,7 @@
 
 .main_logo_header1 {
 	color: #222;
-	font-family: Lato-Black;
+	font-family: Lato;
 	font-size: 48px;
 	font-style: normal;
 	font-weight: 900;
@@ -152,7 +164,7 @@
 
 .main_logo_header2 {
 	color: #222;
-	font-family: Lato-Bold;
+	font-family: Lato;
 	font-size: 32px;
 	font-style: normal;
 	font-weight: 700;
@@ -208,7 +220,7 @@
 
 .offer_header3 {
 	color: #f16d7f;
-	font-family: Lato-Bold;
+	font-family: Lato;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 700;
@@ -218,7 +230,7 @@
 .offer_header4 {
 	color: #fff;
 	text-align: center;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -232,7 +244,7 @@
 
 .products_header3 {
 	color: #222;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 400;
@@ -243,7 +255,7 @@
 
 .products_subheader {
 	color: #9f9f9f;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -287,7 +299,7 @@
 	background: none;
 	padding: 11px 16px 13px 13px;
 	color: #fff;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -297,7 +309,7 @@
 .card_header {
 	width: 315px;
 	color: #000;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 13px;
 	font-style: normal;
 	font-weight: 400;
@@ -308,7 +320,7 @@
 .card_text {
 	width: 315px;
 	color: #5d5d5d;
-	font-family: Lato-Light;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 300;
@@ -319,7 +331,7 @@
 .card_price {
 	width: 315px;
 	color: #f16d7f;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -342,14 +354,14 @@
 }
 
 .browse_all_button:hover {
-	background-color: #F16D7F;
+	background-color: #f16d7f;
 }
 
 .browse_all_button_text {
 	margin: 15px auto;
 	color: #f26376;
 	text-align: center;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -381,7 +393,7 @@
 	margin-top: 28px;
 	margin-bottom: 16px;
 	color: #fbfbfb;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -391,7 +403,7 @@
 .feature-item__text {
 	color: #fbfbfb;
 	text-align: center;
-	font-family: Lato-Light;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 300;
@@ -435,7 +447,7 @@
 	height: 99px;
 	color: #222224;
 	text-align: center;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -459,7 +471,7 @@
 .subscribe-buttongroup_h3 {
 	color: #222224;
 	text-align: center;
-	font-family: Lato-Bold;
+	font-family: Lato;
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 700;
@@ -487,7 +499,7 @@
 	padding-left: 22px;
 	background-color: #e1e1e1;
 	color: #222224;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -504,7 +516,7 @@
 	background-color: #f16d7f;
 	color: #fff;
 	text-align: center;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
@@ -523,7 +535,7 @@
 .footer-text {
 	margin: 30px auto 30px 235px;
 	color: #fbfbfb;
-	font-family: Lato-Regular;
+	font-family: Lato;
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -585,7 +597,7 @@
 
 	.main_logo_header1 {
 		color: #222;
-		font-family: Lato-Black;
+		font-family: Lato;
 		font-size: 44px;
 	}
 
@@ -875,7 +887,7 @@
 		height: 73px;
 		color: #222224;
 		text-align: center;
-		font-family: Lato-Regular;
+		font-family: Lato;
 		font-size: 18px;
 		font-style: normal;
 		font-weight: 400;
@@ -895,7 +907,7 @@
 	.subscribe-buttongroup_h3 {
 		color: #222224;
 		text-align: center;
-		font-family: Lato-Bold;
+		font-family: Lato;
 		font-size: 24px;
 		font-style: normal;
 		font-weight: 700;
@@ -927,7 +939,7 @@
 		padding-left: 22px;
 		background-color: #e1e1e1;
 		color: #222224;
-		font-family: Lato-Regular;
+		font-family: Lato;
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
@@ -944,7 +956,7 @@
 		background-color: #f16d7f;
 		color: #fff;
 		text-align: center;
-		font-family: Lato-Regular;
+		font-family: Lato;
 		font-size: 14px;
 		font-style: normal;
 		font-weight: 400;
