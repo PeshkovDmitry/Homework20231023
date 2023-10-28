@@ -340,6 +340,10 @@
 	background-color: #fff;
 }
 
+.browse_all_button:hover {
+	background-color: #F16D7F;
+}
+
 .browse_all_button_text {
 	margin: 15px auto;
 	color: #f26376;
@@ -348,6 +352,10 @@
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+.browse_all_button:hover .browse_all_button_text {
+	color: #fff;
 }
 
 .feature {
