@@ -187,25 +187,25 @@
 .offer_for_men_background {
 	width: 360px;
 	height: 260px;
-	background-image: url(./img/offer_for_men.png);
+	background-image: url(./img/offer_for_men.webp);
 }
 
 .offer_for_women_background {
 	width: 360px;
 	height: 260px;
-	background-image: url(./img/offer_for_women.png);
+	background-image: url(./img/offer_for_women.webp);
 }
 
 .offer_for_kids_background {
 	width: 360px;
 	height: 260px;
-	background-image: url(./img/offer_for_kids.png);
+	background-image: url(./img/offer_for_kids.webp);
 }
 
 .offer_accesories_background {
 	width: 1140px;
 	height: 180px;
-	background-image: url(./img/offer-accesories.png);
+	background-image: url(./img/offer-accesories.webp);
 }
 
 .filler {
@@ -618,28 +618,28 @@
 	.offer_for_men_background {
 		width: 232px;
 		height: 168px;
-		background-image: url(./img/offer_for_men.png);
+		background-image: url(./img/offer_for_men.webp);
 		background-size: contain;
 	}
 
 	.offer_for_women_background {
 		width: 232px;
 		height: 168px;
-		background-image: url(./img/offer_for_women.png);
+		background-image: url(./img/offer_for_women.webp);
 		background-size: contain;
 	}
 
 	.offer_for_kids_background {
 		width: 232px;
 		height: 168px;
-		background-image: url(./img/offer_for_kids.png);
+		background-image: url(./img/offer_for_kids.webp);
 		background-size: contain;
 	}
 
 	.offer_accesories_background {
 		width: 735px;
 		height: 116px;
-		background-image: url(./img/offer-accesories.png);
+		background-image: url(./img/offer-accesories.webp);
 		background-size: contain;
 	}
 
